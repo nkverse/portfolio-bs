@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <link
+    rel="stylesheet"
+    href="./node_modules/bootstrap/dist/css/bootstrap-grid.css"
+  >
+
+  <link
+    rel="stylesheet"
+    href="./node_modules/bootstrap/dist/css/bootstrap.css"
+  >
+
+  <link
+    rel="stylesheet"
+    href="./node_modules/bootstrap-icons/font/bootstrap-icons.css"
+  >
+
+  <title>Portfolio prototype</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <nav
+    class="navbar navbar-expand-lg bg-light navbar-light sticky-top"
+  >
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <strong>Portfolio.</strong>
+      </a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#nav-menu"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="nav-menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="text-left p-5 hero">
+    <div
+      class="container p-5 d-flex flex-column align-items-left
+      justify-content-center"
+    >
+      <h1 class="py-3">
+        <strong>
+          I'm Alexandra <br>
+          Glad to see you!
+        </strong>
+      </h1>
+
+      <div class="row">
+        <p class="col lead">
+          I’m a software developer! I can help you build a product,
+          feature or website Look through some of my work and
+          experience! If you like what you see and have a project
+          you need coded, don’t hestiate to contact me.
+        </p>
+        <div class="col"></div>
+      </div>
+
+      <a href="#">Let's connect</a>
+
+      <div class="d-flex py-3">
+        <a class="pe-3" href="#">
+          <i class="bi bi-twitter"></i>
+        </a>
+
+        <a class="pe-3" href="#">
+          <i class="bi bi-linkedin"></i>
+        </a>
+
+        <a class="pe-3" href="#">
+          <i class="bi bi-medium"></i>
+        </a>
+
+        <a class="pe-3" href="#">
+          <i class="bi bi-github"></i>
+        </a>
+
+        <a href="#">
+          <i class="bi bi-check"></i>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Main -->
+  <main class="container">
+    <card
+      class="d-flex align-items-center justify-content-center py-5"
+    >
+      <img
+        class="img-fluid w-50"
+        src="./imgs/one.png"
+        alt=""
+      >
+
+      <div class="p-5">
+        <h1>
+          <strong>Tonic</strong>
+        </h1>
+
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item active" aria-current="page">
+              <strong>CANOPY</strong>
+            </li>
+            <li class="breadcrumb-item active" aria-current="page">
+              Backend dev
+            </li>
+            <li class="breadcrumb-item active" aria-current="page">
+              2015
+            </li>
+          </ol>
+        </nav>
+
+        <p>
+          A daily selection of privately personalized reads; no
+          accounts or sign-ups required.
+        </p>
+
+        <div class="d-flex pt-2 pb-5">
+          <span class="badge bg-primary me-2">
+            HTML
+          </span>
+          <span class="badge bg-primary me-2">
+            CSS
+          </span>
+          <span class="badge bg-primary me-2">
+            JAVASCRIPT
+          </span>
+        </div>
+
+        <button
+          type="button"
+          class="btn btn-outline-primary"
+        >
+          See Projects
+        </button>
+      </div>
+
+    </card>
+
+    <card
+      class="d-flex align-items-center justify-content-center py-5"
+    >
+      <div class="p-5">
+        <h1>
+          <strong>Tonic</strong>
+        </h1>
+
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item active" aria-current="page">
+              <strong>CANOPY</strong>
+            </li>
+            <li class="breadcrumb-item active" aria-current="page">
+              Backend dev
+            </li>
+            <li class="breadcrumb-item active" aria-current="page">
+              2015
+            </li>
+          </ol>
+        </nav>
+
+        <p>
+          A daily selection of privately personalized reads; no
+          accounts or sign-ups required.
+        </p>
+
+        <div class="d-flex pt-2 pb-5">
+          <span class="badge bg-primary me-2">
+            HTML
+          </span>
+          <span class="badge bg-primary me-2">
+            CSS
+          </span>
+          <span class="badge bg-primary me-2">
+            JAVASCRIPT
+          </span>
+        </div>
+
+        <button
+          type="button"
+          class="btn btn-outline-primary"
+        >
+          See Projects
+        </button>
+      </div>
+
+      <img
+        class="img-fluid w-50"
+        src="./imgs/two.png"
+        alt=""
+      >
+    </card>
+  
+    <card
+      class="d-flex align-items-center justify-content-center py-5"
+    >
+      <img
+        class="img-fluid w-50"
+        src="./imgs/three.png"
+        alt=""
+      >
+
+      <div class="p-5">
+        <h1>
+          <strong>Tonic</strong>
+        </h1>
+
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item active" aria-current="page">
+              <strong>CANOPY</strong>
+            </li>
+            <li class="breadcrumb-item active" aria-current="page">
+              Backend dev
+            </li>
+            <li class="breadcrumb-item active" aria-current="page">
+              2015
+            </li>
+          </ol>
+        </nav>
+
+        <p>
+          A daily selection of privately personalized reads; no
+          accounts or sign-ups required.
+        </p>
+
+        <div class="d-flex pt-2 pb-5">
+          <span class="badge bg-primary me-2">
+            HTML
+          </span>
+          <span class="badge bg-primary me-2">
+            CSS
+          </span>
+          <span class="badge bg-primary me-2">
+            JAVASCRIPT
+          </span>
+        </div>
+
+        <button
+          type="button"
+          class="btn btn-outline-primary"
+        >
+          See Projects
+        </button>
+      </div>
+
+    </card>
+
+    <card
+      class="d-flex align-items-center justify-content-center py-5"
+    >
+      <div class="p-5">
+        <h1>
+          <strong>Tonic</strong>
+        </h1>
+
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item active" aria-current="page">
+              <strong>CANOPY</strong>
+            </li>
+            <li class="breadcrumb-item active" aria-current="page">
+              Backend dev
+            </li>
+            <li class="breadcrumb-item active" aria-current="page">
+              2015
+            </li>
+          </ol>
+        </nav>
+
+        <p>
+          A daily selection of privately personalized reads; no
+          accounts or sign-ups required.
+        </p>
+
+        <div class="d-flex pt-2 pb-5">
+          <span class="badge bg-primary me-2">
+            HTML
+          </span>
+          <span class="badge bg-primary me-2">
+            CSS
+          </span>
+          <span class="badge bg-primary me-2">
+            JAVASCRIPT
+          </span>
+        </div>
+
+        <button
+          type="button"
+          class="btn btn-outline-primary"
+        >
+          See Projects
+        </button>
+      </div>
+
+      <img
+        class="img-fluid w-50"
+        src="./imgs/four.png"
+        alt=""
+      >
+    </card>
+  
+  </main>
+
+  <!-- About -->
+  <div
+    class="container row p-5 m-5"
+  >
+    <div class="col">
+      <h1>
+        <strong>
+          About<br>
+          Myself
+        </strong>
+      </h1>
+
+      <p>
+        Hello I’m a software developer! I can help you build a
+        product, feature or website Look through some of my work and
+        experience! If you like what you see and have a project you
+        need coded, don’t hestiate to contact me.
+      </p>
+
+      <a href="#">LET'S CONNECT</a>
+
+      <div class="d-flex py-3">
+        <a class="pe-3" href="#">
+          <i class="bi bi-twitter"></i>
+        </a>
+
+        <a class="pe-3" href="#">
+          <i class="bi bi-linkedin"></i>
+        </a>
+
+        <a class="pe-3" href="#">
+          <i class="bi bi-medium"></i>
+        </a>
+
+        <a class="pe-3" href="#">
+          <i class="bi bi-github"></i>
+        </a>
+
+        <a href="#">
+          <i class="bi bi-check"></i>
+        </a>
+      </div>
+
+      <button type="button" class="btn btn-outline-primary">
+        Get My resume
+      </button>
+    </div>
+
+    <div class="col accordion" id="skills">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="head-one">
+          <button
+            class="accordion-button"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#one"
+            aria-expanded="true"
+            area-controls="one"
+          >
+            Languages
+          </button>
+        </h2>
+
+        <div
+          class="accordion-collapse collapse show"
+          aria-labeledby="head-one"
+          data-bs-parent="#skills"
+        >
+          <div class="accordion-body">
+            <div class="d-flex">
+              <h1 class="bi bi-filetype-html mx-5"></h1>
+              <h1 class="bi bi-filetype-css mx-5"></h1>
+              <h1 class="bi bi-filetype-js mx-5"></h1>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="head-one">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#one"
+            aria-expanded="true"
+            area-controls="one"
+          >
+            Frameworks
+          </button>
+        </h2>
+
+        <div
+          class="accordion-collapse collapse"
+          aria-labeledby="head-one"
+          data-bs-parent="#skills"
+        >
+          <div class="accordion-body">
+            Ipsum repellendus laboriosam porro harum officiis? Culpa a
+            alias laborum iste debitis. Ipsum atque consectetur unde
+            ipsam nemo numquam? Provident ex soluta nobis minima
+            beatae. Quisquam earum sint id molestias.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="head-one">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#one"
+            aria-expanded="true"
+            area-controls="one"
+          >
+            Skills
+          </button>
+        </h2>
+
+        <div
+          class="accordion-collapse collapse"
+          aria-labeledby="head-one"
+          data-bs-parent="#skills"
+        >
+          <div class="accordion-body">
+            Dolor ex facere pariatur iure saepe Voluptatem aspernatur
+            voluptatum dicta fugiat recusandae aliquam? Libero
+            cupiditate exercitationem delectus aliquam recusandae!
+            Minus voluptatum ullam perspiciatis aliquid nesciunt!
+            Quaerat at quis fuga mollitia
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact -->
+  <div
+    class="contact container-fluid text-white bg-primary d-flex flex-column
+    align-items-center justify-content-center p-5"
+  >
+    <h1>
+      <strong>Contact me</strong>
+    </h1>
+    <p class="lead text-center">
+      If you have an application you are interested in developing,
+      <br>
+      a feature that you need built or a project that needs coding.
+      <br>
+      I’d love to help with it
+    </p>
+
+    <form action="">
+      <input
+        class="form-control p-2 my-2"
+        type="input"
+        placeholder="type your full name!"
+      >
+
+      <input
+        class="form-control p-2 my-2"
+        type="email"
+        placeholder="type your email"
+      >
+      <textarea
+        class="form-control p-2 my-3"
+        cols="30"
+        rows="10"
+      >
+      </textarea>
+
+      <button class="btn btn-light my-3">
+        Get in touch
+      </button>
+    </form>
+  </div>
+
+  <!-- Modules -->
+  <script
+    type="module"
+    defer
+    src="./node_modules/bootstrap/dist/js/bootstrap.js"
+  >
+  </script>
+
+  <!-- styles -->
+  <style>
+    .hero {
+      background-image: url("./imgs/bg-hero.png");
+    }
+
+    .contact {
+      background-image: url("./imgs/bg-contact.png");
+    }
+
+    .hero,
+    .contact {
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+    }
+  </style>
+
+</body>
+
+</html>
