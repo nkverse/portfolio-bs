@@ -18,6 +18,11 @@
     href="./node_modules/bootstrap/dist/css/bootstrap.css"
   >
 
+  <link
+    rel="stylesheet"
+    href="./node_modules/bootstrap-icons/font/bootstrap-icons.css"
+  >
+
   <title>Portfolio prototype</title>
 </head>
 
@@ -56,6 +61,56 @@
     </div>
   </nav>
 
+  <!-- Hero -->
+  <section class="text-left p-5 hero">
+    <div
+      class="container p-5 d-flex flex-column align-items-left
+      justify-content-center"
+    >
+      <h1 class="py-3">
+        <strong>
+          I'm Alexandra <br>
+          Glad to see you!
+        </strong>
+      </h1>
+
+      <div class="row">
+        <p class="col lead">
+          I’m a software developer! I can help you build a product,
+          feature or website Look through some of my work and
+          experience! If you like what you see and have a project
+          you need coded, don’t hestiate to contact me.
+        </p>
+        <div class="col"></div>
+      </div>
+
+      <a href="#">Let's connect</a>
+
+      <div class="d-flex py-3">
+        <a class="pe-3" href="#">
+          <i class="bi bi-twitter"></i>
+        </a>
+
+        <a class="pe-3" href="#">
+          <i class="bi bi-linkedin"></i>
+        </a>
+
+        <a class="pe-3" href="#">
+          <i class="bi bi-medium"></i>
+        </a>
+
+        <a class="pe-3" href="#">
+          <i class="bi bi-github"></i>
+        </a>
+
+        <a href="#">
+          <i class="bi bi-check"></i>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
 
   <!-- Modules -->
   <script
@@ -64,6 +119,17 @@
     src="./node_modules/bootstrap/dist/js/bootstrap.js"
   >
   </script>
+
+  <!-- styles -->
+  <style>
+    .hero {
+      background-image: url("./imgs/bg-hero.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+    }
+  </style>
+
 </body>
 
 </html>
